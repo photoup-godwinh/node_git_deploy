@@ -7,7 +7,7 @@ module.exports = function verify_branch(branch) {
 
             res.status(400).send('invalid request');
 		} else {
-			logger.info('hash the same');
+			logger.info('branch (' + branch + ') check is OKAY');
 
 			next();
 		}

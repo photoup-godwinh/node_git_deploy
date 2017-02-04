@@ -5,6 +5,7 @@
 .buildpath
 .settings
 .project
+npm-debug.log
 
 node_modules
 constants/constants.js
