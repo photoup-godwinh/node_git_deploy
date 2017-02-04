@@ -1,0 +1,12 @@
+# Temporary files
+*~
+
+# Eclipse specific
+.buildpath
+.settings
+.project
+
+node_modules
+constants/constants.js
+storage/deploy.log
+shell_scripts/deploy.sh
