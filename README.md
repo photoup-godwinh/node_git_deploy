@@ -13,4 +13,4 @@ An ExpressJS implementation that listens for a git push event on a specific bran
 8. Copy shell_scripts/deploy.example.sh and rename to deploy.sh
 9. Enter the git commands or other bower/npm commands that you want to perform on a push event.
 
-You should be good to. Do a test push and see if the app responds to the webhook event. 
+You should be good to go! Do a test push and see if the app responds to the webhook event. 
