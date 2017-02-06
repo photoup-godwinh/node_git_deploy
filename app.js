@@ -31,6 +31,5 @@ app.post('/deploy', jsonParser,
 app.listen(constants.port, function() {
     var logger = require('./scripts/logger.js');
 
-    // console.log('listening to port 8080');
-    logger.info('server started, listening to port 8080');
+    logger.info('server started, listening to port ' + constants.port);
 })
