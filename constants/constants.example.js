@@ -2,5 +2,6 @@
 
 module.exports = Object.freeze({
 	branch: 'refs/heads/master',
-	secret: 'YOURSECRET_KEY_HERE'
+	secret: 'YOURSECRET_KEY_HERE',
+	port: 8080
 });

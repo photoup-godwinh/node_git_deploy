@@ -28,7 +28,7 @@ app.post('/deploy', jsonParser,
         });
 });
 
-app.listen(8080, function() {
+app.listen(constants.port, function() {
     var logger = require('./scripts/logger.js');
 
     // console.log('listening to port 8080');
